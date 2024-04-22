@@ -336,8 +336,8 @@ height: 100vh;
 
 }
 
-/* Block 6 */
-.block6
+/* Block 7 */
+.block7
 {
     display: flex;
     vertical-align: top;
@@ -384,13 +384,39 @@ height: 100vh;
 
 .collective-line
 {
-    width: 300px;
+    width: 600px;
     margin-left: 0;
     margin-top: 15px;
     border: 1px solid rgb(31, 29, 54);
 
 }
 
+/* Block 8 */
+.block8
+{
+    width: 100vw;
+    height: 79vh;
+    margin-top: 40px;
+}
 
+.map
+{
+    margin-left: 6%;
+    width: 90%;
+}
 
+.how-to-find
+{
+    text-align: center;
+}
 
+.how-to-find-text
+{
+    color: rgb(31, 29, 54);
+    font-family: "Noto Serif";
+    font-size: 42px;
+    font-weight: 400;
+    height: 50px;
+    width: 400px;
+    margin: 20px auto;
+}

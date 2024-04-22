@@ -1,0 +1,396 @@
+body {
+    min-height: 100vh;
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+}
+
+h4 {
+    font-weight: normal;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+h1 {
+    font-weight: normal;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+/* Block 1 */
+.block1 {
+    background-color: rgb(31, 29, 54);
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+    height: 700px;
+}
+
+.logo_block {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
+
+.logo {
+    display: inline-block;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 10px;
+    right: 15px;
+}
+
+.menu_section {
+    color: rgb(238, 238, 238);
+    font-family: Lato;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    display: flex;
+    text-align: left;
+    padding-left: 799px;
+    padding-top: 40px;
+    margin: 0px;
+    justify-content: flex-start;
+    column-gap: 50px;
+}
+
+.menu_item1 .menu_item2 .menu_item3 {
+    font-weight: 100;
+}
+
+.side_photo {
+    position: absolute;
+    width: 577px;
+    height: 544px;
+    padding-top: 0%;
+    margin-top: 0%;
+    left: 0px;
+    top: 0px;
+}
+
+p {
+}
+
+.side_text {
+    position: absolute;
+    width: 468px;
+    height: 138px;
+    left: 54px;
+    top: 540px;
+    color: rgb(238, 238, 238);
+    font-family: Barlow;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.main_text {
+    position: absolute;
+    font-family: "Noto Serif";
+    color: white;
+    left: 505px;
+    top: 250px;
+    font-size: 100px;
+    z-index: 10;
+}
+
+.pink_main_text {
+    color: #E099B6;
+}
+
+.bottom_main_word {
+    position: absolute;
+    color: #E099B6;
+    font-family: "Noto Serif";
+    top: 378px;
+    left: 705px;
+    font-size: 100px;
+}
+
+.star1 {
+    position: absolute;
+    color: white;
+    width: 77.95px;
+    height: 78.56px;
+    left: 622px;
+    top: 395px;
+}
+
+.star2 {
+    position: absolute;
+    color: white;
+    width: 77.95px;
+    height: 78.56px;
+    left: 1185px;
+    top: 395px;
+}
+
+.line_top {
+    position: absolute;
+    width: 720px;
+    size: 1px;
+    color: #E5C9D3;
+    right: 0px;
+    top: 170px;
+    margin: 0px;
+}
+
+.line_bottom {
+    position: absolute;
+    width: 720px;
+    size: 1px;
+    color: #E5C9D3;
+    right: 0px;
+    top: 650px;
+    margin: 0px;
+}
+
+.button {
+    position: absolute;
+    width: 120.73px;
+    height: 51.14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(238, 238, 238);
+    left: 1230px;
+    top: 532px;
+
+    color: rgb(31, 29, 54);
+    font-family: Barlow;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.block2 {
+    background-color: white;
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+    height: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_photo {
+    position: relative;
+    width: 355px;
+    height: 490px;
+    top: 70px;
+    left: 0px;
+}
+
+.right_photo {
+    position: relative;
+    width: 487px;
+    height: 527px;
+    padding-right: 0px;
+    top: 370px;
+    z-index: 9;
+}
+
+.about_us,
+.block3_main {
+    color: rgb(31, 29, 54);
+    font-family: "Noto Serif";
+    font-size: 42px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.about_us {
+    position: absolute;
+    width: 379px;
+    height: 40px;
+    left: 441px;
+    padding-top: 70px;
+    margin: 0px;
+}
+
+.about_text,
+.block3_text {
+    color: rgb(17, 17, 17);
+    font-family: Barlow;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.about_text {
+    position: absolute;
+    width: 707px;
+    left: 441px;
+    padding-top: 150px;
+    margin: 0px;
+    z-index: 10;
+}
+
+
+.line_vertical {
+    position: absolute;
+    width: 250px;
+    height: 0;
+    left: 1300px;
+    top: 815px;
+    transform: rotate(90deg);
+    border: 1px solid rgb(31, 29, 54);
+}
+
+/* Block 3 */
+.block3 {
+    position: absolute;
+    background-color: white;
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+    height: 255px;
+    width: 1000px;
+    top: 1300px;
+    z-index: 0;
+}
+
+.block3_main {
+    position: relative;
+    width: 540px;
+    left: 100px;
+    top: 0px;
+    margin: 0px;
+}
+
+.block3_text {
+    position: relative;
+    left: 100px;
+    width: 910px;
+    margin: 0px;
+    top: 101px;
+    z-index: 10;
+}
+
+.line_block3 {
+    position: absolute;
+    width: 588px;
+    border: 1px solid rgb(31, 29, 54);
+    left: 0px;
+    top: 90px;
+    margin: 0px;
+}
+
+/* Block 4-5 */
+.block4-5
+{
+display: flex;
+width: 100vw;
+height: 100vh;
+}
+
+.bouquet
+{
+    margin-left: 6.25%;
+
+}
+
+.bouquet:nth-last-of-type(1)
+{
+    margin-right: 6.25%;
+}
+
+.bouquet-img
+{
+    width: 25vw;
+    height: 70vh;
+}
+
+.bouquet-dscr
+{
+    text-align: center;
+    font-family: Barlow;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 5px;
+}
+
+.line-bouquet
+{
+    width: 45%;
+    margin: 15px auto;
+    color: #1F1D36;
+}
+
+.bouquet-button
+{
+    width: 35%;
+    height: 25%;
+    background-color: #E099B6;
+    margin: auto;
+}
+
+.bouquet-button-text
+{
+    font-family: Barlow;
+    font-size: 18px;
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+
+}
+
+/* Block 6 */
+.block6
+{
+    display: flex;
+    vertical-align: top;
+    width: 100%;
+    height: 50%;
+    margin: 40px auto;
+    padding: 0px;
+}
+
+.shop-video
+{
+    margin-right: 110px;
+    margin-top: 0px;
+}
+
+
+.our-shop
+{
+    margin-left: 130px;
+    margin-right: 0;
+    margin-top: 0%;
+    color: rgb(31, 29, 54);
+    font-family: "Noto Serif";
+    font-size: 42px;
+    font-weight: 400;
+    text-align: center;
+    height: 50px;
+    width: 400px;
+}
+
+.about-collective
+{
+    color: rgb(17, 17, 17);
+    font-family: Barlow;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 85%;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+.collective-line
+{
+    width: 300px;
+    margin-left: 0;
+    margin-top: 15px;
+    border: 1px solid rgb(31, 29, 54);
+
+}
+
+
+
+
